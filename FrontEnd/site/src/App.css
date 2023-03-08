@@ -1,14 +1,14 @@
 
+
 body {
   margin: 0;
-  background-color: #751475;
-
+  background-image: url("./images/header.jpg");
+  
 }
-
+/* 
 * {
   outline: 1px solid red;
-}
-
+} */
 
 .App-container{
   width: 100%;
@@ -18,11 +18,66 @@ body {
 
 }
 
+.hovering-button{
+  position: relative;
+}
+
+.logo-box{
+  width: fit-content;
+  display: flex;
+  gap: 10px;
+  width: 150px;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.logo-p{
+  width: 150px;
+  font-size: 10px;
+}
+
+.logo-image{
+  height: 57px;
+}
+
+.other-content{
+  width: 40%;
+  height: 57px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
 
 .login-container{
   width: 500px;
 
   height: 100px;
   background-color: black;
+
+}
+
+.dropdown-container{
+  width: 200px;
+  height: 250px;    
+  margin-top: 1px;
+  left:-60px;
+  border-radius: 25px;
+  position: absolute;
+  background-color: antiquewhite;
+  
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+
+.first-item{
+  margin-top: 10px;
+  text-align: center;
+  width: 100%;
+  color: black;
+  border-radius: 25px;
 
 }

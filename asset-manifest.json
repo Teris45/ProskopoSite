@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/ProskopoSite/static/css/main.3afd312b.css",
-    "main.js": "/ProskopoSite/static/js/main.9398c6d2.js",
+    "main.css": "/ProskopoSite/static/css/main.b05ec292.css",
+    "main.js": "/ProskopoSite/static/js/main.9ba662f2.js",
     "static/js/787.dd4029b4.chunk.js": "/ProskopoSite/static/js/787.dd4029b4.chunk.js",
     "static/media/header.jpg": "/ProskopoSite/static/media/header.98bcc4b5466b91532794.jpg",
     "static/media/logo.png": "/ProskopoSite/static/media/logo.86af093a6b71439319a4.png",
     "index.html": "/ProskopoSite/index.html",
-    "main.3afd312b.css.map": "/ProskopoSite/static/css/main.3afd312b.css.map",
-    "main.9398c6d2.js.map": "/ProskopoSite/static/js/main.9398c6d2.js.map",
+    "main.b05ec292.css.map": "/ProskopoSite/static/css/main.b05ec292.css.map",
+    "main.9ba662f2.js.map": "/ProskopoSite/static/js/main.9ba662f2.js.map",
     "787.dd4029b4.chunk.js.map": "/ProskopoSite/static/js/787.dd4029b4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3afd312b.css",
-    "static/js/main.9398c6d2.js"
+    "static/css/main.b05ec292.css",
+    "static/js/main.9ba662f2.js"
   ]
 }

@@ -7,9 +7,10 @@ import ButtonList from './ButtonList';
 import MenuIcon from '@mui/icons-material/Menu';
 
 
-const HomeBar = () => {
+const HomeBar = ( props ) => {
     const [open,setOpen] = useState(false);
     const [openHover, setOpenHover] = useState(false);
+    
 
 
     const handleHover = () =>
@@ -22,6 +23,10 @@ const HomeBar = () => {
         setOpenHover(false);
     }
 
+    const handleOpenMenu = () =>
+    {
+      props.setOpenMenu(true);
+    }
 
     // const handleClickOpen = () =>
     // {
@@ -40,9 +45,9 @@ const HomeBar = () => {
           <div className='login-container'></div>
         </Dialog>
 
-        
+
             
-        <AppBar sx={{backgroundColor:'#751475',}} position="static">
+        <AppBar sx={{backgroundColor:'#751475', zIndex:0,}} position="static">
           <Toolbar sx={{
             display:"flex",
             justifyContent:"space-around"
@@ -82,7 +87,7 @@ const HomeBar = () => {
             </Box>
                 
             <Box sx={{display:{xs : "flex", sm:"none"}}}>
-                <Button>
+                <Button sx={{color:'antiquewhite'}} onClick={handleOpenMenu}>
                   <MenuIcon/>
                 </Button>
             </Box>

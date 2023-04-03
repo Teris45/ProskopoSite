@@ -1,22 +1,45 @@
 
+ 
+
+.menu-container{
+    flex:1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: #751475;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1;
+    overflow: hidden;
+}  
 
 .container{
+
     width: 100%;
-    height: 600px;
+    height: 800px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: center;
+    gap: 1rem;
     align-items: center;
 }
 
 .image-box{
+    
+    max-width: 15%;
     width: fit-content;
     height: fit-content;
 }
 
 .logo-title{
-    width: 800px;
-    height: 250px;
+    
+    display: flex;
+    justify-content: center;
+    flex-shrink: 100;
+    width: 100%;
+    height: auto;
 }
 
 .logo-text{
@@ -28,21 +51,42 @@
     font-family: 'Noto Serif', serif;
 }
 
+
+
 .intro-container{
     background-color: antiquewhite;
     display: flex;
+
+    
     justify-content: space-evenly;
-    height: 500px;
+    align-items: center;
+    height: fit-content;
     width: 100%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
+@media screen and (max-width: 600px) {
+    
+    .intro-container{ flex-wrap:wrap; }
+    
+}
 .image-lesxi{
-    width: 500px;
+    border-radius: 3rem;
+    padding: 2rem;
+    min-width: 365px;
+    width: 70%;
     height: 100%;
 }
 
 .intro-text{
-    width: 700px;
+    color: #751475;
+    display:flex;
+    flex-direction: column;
+    padding-right: 5rem;
+    padding-left: 4rem;
+    gap:1rem;
+    width: 40rem;
     height: 100%;
 }
 
@@ -60,4 +104,47 @@
     font-size: 20px;
     font-weight: 100;
     
+}
+
+.horizontal-line-container{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.horizontal-line{
+    background-color: antiquewhite;
+    color: antiquewhite;
+    width: 80%;
+}
+
+.soma{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.button-container{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.rest-menu-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column; 
+    gap: 3rem;
+
+}
+
+.tmimata-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    gap:1rem;
 }

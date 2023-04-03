@@ -2,24 +2,37 @@
 
 body {
   margin: 0;
-  background-image: url("./images/header.jpg");
-  
+  width: 100vw;
+  height: 100vh;
 }
 
 
 
 .my-container{
+
+  background-image: url("./images/header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   width: 100%;
   display: flex;
+  flex:1;
   flex-direction: column;
   align-items: center;
-  flex-wrap: wrap;
-  row-gap: 100px;
+  gap: 3rem;
+  height: 100%;
+  overflow: hidden;
+
+
 }
-/* 
+
+
+
+
+/*  
 * {
   outline: 1px solid red;
-}    */
+}  */
 
 .App-container{
   width: 100%;

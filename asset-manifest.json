@@ -1,18 +1,24 @@
 {
   "files": {
-    "main.css": "/ProskopoSite/static/css/main.de304398.css",
-    "main.js": "/ProskopoSite/static/js/main.87bee0be.js",
+    "main.css": "/ProskopoSite/static/css/main.b09dfbe2.css",
+    "main.js": "/ProskopoSite/static/js/main.030ccd4b.js",
     "static/js/787.dd4029b4.chunk.js": "/ProskopoSite/static/js/787.dd4029b4.chunk.js",
     "static/media/lesxi.jpg": "/ProskopoSite/static/media/lesxi.3aaca1256d033282ece2.jpg",
     "static/media/header.jpg": "/ProskopoSite/static/media/header.98bcc4b5466b91532794.jpg",
+    "static/media/cubs.png": "/ProskopoSite/static/media/cubs.b197fd7df648c698bd2a.png",
+    "static/media/scouts.png": "/ProskopoSite/static/media/scouts.326d9f4b1c4a33aac21f.png",
+    "static/media/network.png": "/ProskopoSite/static/media/network.9f77543d5aa33b38fe91.png",
+    "static/media/leaders.png": "/ProskopoSite/static/media/leaders.d63ab96088ece4087b52.png",
+    "static/media/parents.png": "/ProskopoSite/static/media/parents.aad44977f41bff650f72.png",
+    "static/media/explorers.png": "/ProskopoSite/static/media/explorers.79593c23d34e717081e7.png",
     "static/media/logo.png": "/ProskopoSite/static/media/logo.86af093a6b71439319a4.png",
     "index.html": "/ProskopoSite/index.html",
-    "main.de304398.css.map": "/ProskopoSite/static/css/main.de304398.css.map",
-    "main.87bee0be.js.map": "/ProskopoSite/static/js/main.87bee0be.js.map",
+    "main.b09dfbe2.css.map": "/ProskopoSite/static/css/main.b09dfbe2.css.map",
+    "main.030ccd4b.js.map": "/ProskopoSite/static/js/main.030ccd4b.js.map",
     "787.dd4029b4.chunk.js.map": "/ProskopoSite/static/js/787.dd4029b4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.de304398.css",
-    "static/js/main.87bee0be.js"
+    "static/css/main.b09dfbe2.css",
+    "static/js/main.030ccd4b.js"
   ]
 }

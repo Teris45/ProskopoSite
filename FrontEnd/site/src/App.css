@@ -19,7 +19,7 @@ body {
   flex:1;
   flex-direction: column;
   align-items: center;
-  gap: 3rem;
+  
   height: 100%;
   overflow: hidden;
 
@@ -29,10 +29,10 @@ body {
 
 
 
-/*  
+/*   
 * {
   outline: 1px solid red;
-}  */
+} */
 
 .App-container{
   width: 100%;
@@ -106,3 +106,4 @@ body {
   border-radius: 25px;
 
 }
+
